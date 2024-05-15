@@ -1,0 +1,23 @@
+.table {
+    padding-top: 20px;
+
+    &Block {
+        border: 1px solid gray;
+        border-radius: 6px;
+    } 
+    
+    &Container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 12px;
+    }
+}
